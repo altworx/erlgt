@@ -55,6 +55,7 @@
         , delete/1
         , is_edge/3
         , is_path/2
+        , is_vertex/2
         , get_path/3
         , get_cycle/2
         , get_short_path/3
