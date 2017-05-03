@@ -139,6 +139,8 @@ sinks(G) -> gen_digraph:gen_sinks(G).
 
 delete(_) -> true.
 
+is_vertex(V, {_, {_, _, Nodes}}) -> maps:is_key(V, Nodes).
+
 is_edge(G, V1, V2) -> gen_digraph:gen_is_edge(G, V1, V2).
 
 is_path(G, P) -> gen_digraph:gen_is_path(G, P).
